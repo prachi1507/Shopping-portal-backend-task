@@ -1,6 +1,6 @@
+NOTES
+-------
 PORT=5000: This variable specifies the port number on which your Node.js server will listen for incoming HTTP requests. In this case, the server will listen on port 5000.
-DB_URI=mongodb+srv://shopping:api123@cluster0.hkbekk2.mongodb.net/?retryWrites=true&w=majority: This variable contains the connection URI for your MongoDB database. 
-JWT_SECRET_KEY=sdhcgjasvbcjlwgc: This variable contains the secret key used for signing JSON Web Tokens (JWT) in your application. JWTs are used for authentication and authorization purposes in web applications.
 JWT_EXPIRE=7d: This variable specifies the expiration time for JWTs issued by your application. In this case, JWTs will expire after 7 days.
 COOKIE_EXPIRE=7: This variable specifies the expiration time for cookies set by your application. In this case, cookies will expire after 7 days.
 
@@ -15,7 +15,7 @@ This function can be called to establish the database connection when the applic
 It's important to ensure that the DB_URI environment variable is properly configured with the correct MongoDB connection URI.
 
 
-Command for downloading express.js:
+Command for downloading express:
 --------------------------------------
 
 npm install express
