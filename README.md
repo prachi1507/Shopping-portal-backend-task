@@ -1,3 +1,5 @@
+<h1>Shopping Portal with RESTful API using node.js and express</h1>
+
 NOTES
 -------
 PORT=5000: This variable specifies the port number on which your Node.js server will listen for incoming HTTP requests. In this case, the server will listen on port 5000.
