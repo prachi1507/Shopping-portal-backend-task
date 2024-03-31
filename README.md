@@ -2,8 +2,7 @@
 
 NOTES
 -------
-PORT=5000: This variable specifies the port number on which your Node.js server will listen for incoming HTTP requests. In this case, the server will listen on port 5000.
-
+PORT=5000: This variable specifies the port number on which your Node.js server will listen for incoming HTTP requests. In this case, the server will listen on port 5000.<br>
 JWT_EXPIRE=7d: This variable specifies the expiration time for JWTs issued by your application. In this case, JWTs will expire after 7 days.
 
 COOKIE_EXPIRE=7: This variable specifies the expiration time for cookies set by your application. In this case, cookies will expire after 7 days.
